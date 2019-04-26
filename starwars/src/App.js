@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CharsList from './components/StarWarsChars'
+import './components/StarWars.css'
 
 class App extends Component {
   constructor() {
