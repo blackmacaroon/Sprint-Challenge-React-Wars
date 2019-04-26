@@ -1,8 +1,34 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
 }
 .Header {
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 4px 4px 8px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+* {
+  box-sizing: border-box;
+}
+
+html { 
+  font-family: 'Lato', sans-serif;
+  font-size: 62.5%; 
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, h3, h4 {
+  font-size: 3rem;
+}
+
+ul {
+  font-size: 2.2rem;
+}

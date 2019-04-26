@@ -25,12 +25,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+============================================================
+
+React JS is a component library built by facebook to handle loads of data constantly changing and smoothly update the UI as it goes. It comes with it's own developer tools with concise error syntax for easier bug fixes/error handling. The components in the library are reusable and reactive, they do not interfere with existing code or bleed into future code. Basically it helps split web applications into small, reusable, manageable, digestible bits. React JS helps with human error by keeping the logic behind the scenes. It manipulates a virtual DOM in order to make changes int the DOM so we don't have to. We spent a week on event handlers and listeners and wrote a TON of code and React JS saves us from that messy code and the error soup that comes with it. Thanks React! 
+
 
 - [ ] What does it mean to _think_ in react?
+============================================================
+
+thinking in react starts with the big-picture. Take the design for your app (your UI) and break it into components. To help break it down, best practice is each component should have ONE purpose. (think HTML divs for ONE styling). When you've got your components separated out, arrange them into a heirarchy and build a static mockup to decide where your state is housed (so it can pass props to all necessary children/grandchildren). Lastly, plug in your React Components to make your app reactive, interactive, functional.
 
 - [ ] Describe state.
+============================================================
+
+state is an object (this.state{stuffandthings}) that represents the part of the application that you can change, that a user can interact with. It's the log in, log out, retweet, countdown, and the clock. State knows when to change because we've told it to. We set conditions to change and then render() will render the page again, with the updates to state. It's described as the "heart" while props are the "blood" 
 
 - [ ] Describe props.
+============================================================
+
+props is short for "properties", it's a placeholder for a property you're passing to the component. Props is banana, it can be anything. When you plug the component in to your app, props is the data you're passing down from state. It says 'hey, got some props coming at you later, be ready to do your thing" 
 
 ## Project Set Up
 
