@@ -3,6 +3,7 @@ import Chars from './StarWars'
 
 
 function CharsList (props) {
+      console.log('props', props)
      return (
           <div className='character'>
                         {props.starwarsChars.map(thing => (

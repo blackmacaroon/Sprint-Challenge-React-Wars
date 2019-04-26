@@ -2,12 +2,10 @@ import React from 'react';
 
 
 function Chars (props) {
-      console.log(props)
+      console.log('starwarsprops', props)
      return (
            <div>
-                 <p>
-                        {props.starwarsChars.name}
-                 </p>  
+                <p>{props.thing.name}</p>
            </div>
      );
 }

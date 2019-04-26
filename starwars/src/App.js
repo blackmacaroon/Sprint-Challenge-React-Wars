@@ -24,30 +24,35 @@ class App extends Component {
       })
       .then(data => {
         this.setState({ starwarsChars: data.results });
-        console.log('banana', this.state.starwarsChars)
+        // console.log('banana', this.state.starwarsChars)
       })
       .catch(err => {
         throw new Error(err);
       });
   };
 
-  // add a task to the list
-  addChar = character => {
-    // takes a chore string, copies the todos array and adds the new chore item object
-    this.setState({
-          starwarsChars: [
-            ...this.state.starwarsChars,
-            { character: character, id: Date.now() }
-          ]
-    });
-};
+  // add a character to the list
+  // addChar = () => {
+  //   // takes a string, copies the starwarscharacters array and adds the new character item object
+  //   this.setState({
+  //         starwarsChars: [
+  //           ...this.state.starwarsChars,
+  //           { id: Date.now() }
+  //         ]
+  //   });
+  // };
+
+ 
+
+
 
   render() {
+    console.log(this.state.starwarsChars)
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
         <div className='list'>
-          <CharsList addChar={this.addChar} />
+          <CharsList starwarsChars={this.state.starwarsChars} />
         </div>
       </div>
     );
