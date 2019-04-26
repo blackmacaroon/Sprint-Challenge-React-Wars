@@ -1,13 +1,13 @@
 import React from 'react';
-import Chars from './StarWars'
+import Films from './FilmWars'
 
 
-function CharsList (props) {
+function FilmsList (props) {
       // console.log('props', props)
      return (
-          <div className='character'>
-                        {props.starwarsChars.map(thing => (
-                              <Chars
+          <div className='films'>
+                        {props.filmList.map(thing => (
+                              <Films
                               key={thing.id}
                               thing={thing} />
                         ))}
@@ -17,4 +17,4 @@ function CharsList (props) {
      )
 }
 
-export default CharsList;
+export default FilmsList;
