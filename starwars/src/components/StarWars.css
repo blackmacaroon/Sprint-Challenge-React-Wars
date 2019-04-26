@@ -1,12 +1,13 @@
 .card {
       width: 100%;
       padding: 40px;
-      margin: 20px;
+      margin: 20px 0;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      border-radius: 100px 100px 100px 0;
       box-shadow: 4px 4px 25px #fff;
-      background: rgba(70, 77, 70, 0.3);
+      background: rgba(118, 160, 224, 0.2);
 }
 
 .card h2 {
@@ -15,12 +16,15 @@
 }
 
 .deets {
+      padding: 0;
+      margin: 0;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       list-style-type: none;
 }
 
-.deets li {
-
+.list {
+      display: block;
+      margin: 0 auto;
 }

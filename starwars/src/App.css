@@ -12,11 +12,23 @@
 }
 /* write your parent styles in here for your App.js */
 
+* {
+  box-sizing: border-box;
+}
+
 html { 
+  font-family: 'Lato', sans-serif;
   font-size: 62.5%; 
 }
 
-html,
-body {
-  height: 100%;
+h1 {
+  font-size: 4rem;
+}
+
+h2, h3, h4 {
+  font-size: 3rem;
+}
+
+ul {
+  font-size: 2.2rem;
 }
