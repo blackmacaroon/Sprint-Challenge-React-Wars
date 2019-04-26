@@ -31,16 +31,7 @@ class App extends Component {
       });
   };
 
-  // add a character to the list
-  // addChar = () => {
-  //   // takes a string, copies the starwarscharacters array and adds the new character item object
-  //   this.setState({
-  //         starwarsChars: [
-  //           ...this.state.starwarsChars,
-  //           { id: Date.now() }
-  //         ]
-  //   });
-  // };
+
 
  
 
