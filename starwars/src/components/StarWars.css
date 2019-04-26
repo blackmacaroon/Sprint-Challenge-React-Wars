@@ -1,5 +1,26 @@
 .card {
+      width: 100%;
+      padding: 40px;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 4px 4px 25px #fff;
+      background: rgba(70, 77, 70, 0.3);
+}
+
+.card h2 {
+      color: #443e3e;
+      text-shadow: 1px 1px 5px #fff;
+}
+
+.deets {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-end;
+      list-style-type: none;
+}
+
+.deets li {
+
 }
