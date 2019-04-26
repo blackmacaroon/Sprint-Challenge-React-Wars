@@ -13,6 +13,7 @@ function Chars (props) {
                         <li>Eye Color: {props.thing.eye_color}</li>
                         <li>Hair Color: {props.thing.hair_color}</li>
                         <li>Skin Color: {props.thing.skin_color}</li>
+                        {/* <li className='films'>{props.thing.films}</li> */}
                   </ul>
            </div>
      );

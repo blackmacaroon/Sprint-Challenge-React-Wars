@@ -40,6 +40,7 @@ class App extends Component {
         <div className='list'>
           <CharsList starwarsChars={this.state.starwarsChars} />
         </div>
+        {/* <button>Films</button> */}
       </div>
     );
   }
